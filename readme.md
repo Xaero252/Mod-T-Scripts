@@ -28,3 +28,5 @@ This allows a regular user to run the scripts and still have them operate as int
 
 
 From there most scripts are pretty straightforward. Simply flag them executable and run them. The `send_gcode.py`, `flash_firmware.sh`, and `fw_update.py` are the only scripts requiring arguments, each of them expect a single argument containing the path to an appropriate file for the function requested.  
+
+If you do choose to use these scripts to print things by sending gcode, monitor the output of the `send_gcode.py` script until you see `STATE_JOB_QUEUED` as the printer status. If you press the front panel button prior to seeing this state you will have a broken print job, which will not print correctly.
