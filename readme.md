@@ -10,10 +10,10 @@ I must also credit /u/modtdev on reddit for the work on getting the gcode sent t
 
 ###Depdencies
 
-*curl
-*dfu-util
-*python3
-*python3-pyusb
+1. curl
+2. *dfu-util
+3. *python3
+4. *python3-pyusb
 
 
 ##Usage
